@@ -354,7 +354,7 @@
 				cursor: pointer;
 			}
 			.inst img:hover{
-				transform: scale(1.05);
+				transform: scale(1.0);
 			}
 			.tran:hover {
 				transform: scale(1.1);
@@ -373,8 +373,8 @@
 			.stepbutton1 {
 				position: fixed;
 				cursor: pointer;
-				bottom: 60%;
-				right: 5%;
+				bottom: 75%;
+				left: 5%;
 				overflow: hidden;
 				opacity: 0.5;
 				transition: 0.4s;
@@ -385,8 +385,8 @@
 			.stepbutton2 {
 				position: fixed;
 				cursor: pointer;
-				bottom: 50%;
-				right: 5%;
+				bottom: 65%;
+				left: 5%;
 				overflow: hidden;
 				opacity: 0.5;
 				transition: 0.4s;		
@@ -397,8 +397,44 @@
 			.stepbutton3 {
 				position: fixed;
 				cursor: pointer;
-				bottom: 40%;
-				right: 5%;
+				bottom: 55%;
+				left: 5%;
+				overflow: hidden;
+				opacity: 0.5;
+				transition: 0.4s;		
+			}
+			:hover {
+				opacity: 1;
+			}
+			.stepbutton4 {
+				position: fixed;
+				cursor: pointer;
+				bottom: 45%;
+				left: 5%;
+				overflow: hidden;
+				opacity: 0.5;
+				transition: 0.4s;		
+			}
+			:hover {
+				opacity: 1;
+			}
+			.stepbutton5 {
+				position: fixed;
+				cursor: pointer;
+				bottom: 35%;
+				left: 5%;
+				overflow: hidden;
+				opacity: 0.5;
+				transition: 0.4s;		
+			}
+			:hover {
+				opacity: 1;
+			}
+			.stepbutton6 {
+				position: fixed;
+				cursor: pointer;
+				bottom: 25%;
+				left: 5%;
 				overflow: hidden;
 				opacity: 0.5;
 				transition: 0.4s;		
