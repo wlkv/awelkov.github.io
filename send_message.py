@@ -62,6 +62,8 @@ async def follow_list(chat_ids):
             await asyncio.sleep(e.seconds)
         except Exception as e:
             logger.error(f"Ошибка при проверке {chat_id}: {e}")
+            client.chat_list.remove(chat_id)
+            logger.debug(f"Удаляем {chat_id} из списка")
 
     logger.info("Проверка завершена. Начинаем процесс вступления.")
     for chat_id in to_join:
